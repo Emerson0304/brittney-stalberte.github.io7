@@ -2,19 +2,86 @@
 <html>  
 
     <head>
-
         <title> Welcome </title>
+        <style>
+            body {
+                background: rgb(125, 198, 205);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+        
+            /* navigation menu */
+            nav {
+                background: rgb(239, 80, 41);
+                margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            nav h1 {
+                display: flex;
+                align-items: center;
+                color: white;
+                flex: 1;
+                margin: 0;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+        
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+        </style>
+        
     </head>
 
     <body>
       <div id="all-contents">
         <nav>
+            <h1> Britteny's Who Am I website </h1>
+            <ul>
+                <li>
+                 <a href="index.html"> Home </a>
+                </li>
+                <li>
+                 <a href="portfolio.html"> Portfolio </a> 
+                </li>
+            </ul>
 
         </nav>
 
         <main>
            <div class="sidebar">
-
+                <img src="data:image/jpeg;base64,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">
            </div>
            
            <div class="content">
