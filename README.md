@@ -1,10 +1,9 @@
 # brittney-stalberte.github.io7
 
-
 ## First Website Project
 1) Only need to complete TODOS 1-10.
-2) Preview your index.html page with live server and send instructor a screenshot to get credit.
-
+2) Preview your index.html page with live server and send instructor a screenshot to get credit
+.
 ## Portfolio Page
 1) Only need to complete TODOS 1-5.
 2) Preview your index.html page with live server and send instructor a screenshot to get credit.
